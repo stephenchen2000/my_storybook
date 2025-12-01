@@ -278,7 +278,7 @@ textarea {
   flex-wrap: wrap;
   height: 3rem;
   width: 100%;
-  background: white;
+  background: #f0fdf4;
   transition: all ease-out 150ms;
 }
 
@@ -332,7 +332,15 @@ textarea {
 }
 
 .list-item:hover {
-  background-image: linear-gradient(to bottom, #e5f9f7 0%, #f0fffd 100%);
+  background-image: linear-gradient(to bottom, #dcfce7 0%, #f0fdf4 100%);
+}
+
+.list-item.TASK_PINNED {
+  background: #fef9c3;
+}
+
+.list-item.TASK_PINNED:hover {
+  background-image: linear-gradient(to bottom, #fef3c7 0%, #fffbeb 100%);
 }
 
 .list-item:hover .checkbox {
